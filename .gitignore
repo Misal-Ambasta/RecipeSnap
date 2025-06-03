@@ -1,0 +1,33 @@
+# Node.js/React (frontend)
+node_modules/
+dist/
+build/
+.env
+.env.*
+
+# Python (backend)
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+models_cache/
+*.log
+
+# System/IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+
+# Ignore frontend and backend .env files
+backend/.env
+RecipeSnap/.env 
